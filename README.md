@@ -5,11 +5,15 @@ A terminal-based portfolio app built with Go and Bubble Tea.
 ## Build
 
 ```sh
-go build ./...
-```
+# Linux
+GOOS=linux GOARCH=amd64 go build -o portfolio-cli-linux ./cmd
 
-## Run
+# macOS (Intel)
+GOOS=darwin GOARCH=amd64 go build -o portfolio-cli-macos ./cmd
 
-```sh
-go run ./cmd
+# macOS (Apple Silicon)
+GOOS=darwin GOARCH=arm64 go build -o portfolio-cli-macos-arm64 ./cmd
+
+# Windows
+GOOS=windows GOARCH=amd64 go build -o portfolio-cli.exe ./cmd
 ```

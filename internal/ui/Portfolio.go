@@ -68,6 +68,14 @@ func NewMenuModel() tea.Model {
 			description: "My Portfolio\n\nProject Link: [https://portfolio-three-js-ruddy.vercel.app/assets/My%20Portfolio.mp4]\n\n\nLogin and SignUp\n\nProject Link: [https://portfolio-three-js-ruddy.vercel.app/assets/Login-signup-nodejs.mp4]\n\n\nNote Taking\n\nProject Link: [https://portfolio-three-js-ruddy.vercel.app/assets/Note-Taking-App.mp4]\n\n\nDevPath\n\nProject Link: [https://portfolio-three-js-ruddy.vercel.app/assets/DevPath.mp4]\n\n\n",
 			category: "Portfolio",
 		},
+
+		sectionItem{
+			key: "Social Media",
+			title: "Social Media",
+			subtitle: "This is my social media links\n",
+			description: "Gmail\n\nLink: [ebraam.sobhy2003@gmail.com]\n\n\nLinkedin\n\nLink: [https://www.linkedin.com/in/ebraam-sobhy-255444274/]\n\n\nGithub\n\nLink: [https://github.com/EbraamSobhy]",
+			category: "Portfolio",
+		},
 	}
 
 	delegate := list.NewDefaultDelegate()
