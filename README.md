@@ -2,18 +2,27 @@
 
 A terminal-based portfolio app built with Go and Bubble Tea.
 
-## Build
+## Downloads
 
-```sh
-# Linux
-GOOS=linux GOARCH=amd64 go build -o portfolio-cli-linux ./cmd
-
-# macOS (Intel)
-GOOS=darwin GOARCH=amd64 go build -o portfolio-cli-macos ./cmd
-
-# macOS (Apple Silicon)
-GOOS=darwin GOARCH=arm64 go build -o portfolio-cli-macos-arm64 ./cmd
-
-# Windows
-GOOS=windows GOARCH=amd64 go build -o portfolio-cli.exe ./cmd
-```
+<table>
+  <tr>
+    <th align="left">Platform</th>
+    <th align="left">Download Link</th>
+  </tr>
+  <tr>
+    <td>Linux (x64)</td>
+    <td><a href="portfolio-cli-linux" download>portfolio-cli-linux</a></td>
+  </tr>
+  <tr>
+    <td>Windows (x64)</td>
+    <td><a href="portfolio-cli.exe" download>portfolio-cli.exe</a></td>
+  </tr>
+  <tr>
+    <td>macOS (Intel)</td>
+    <td><a href="portfolio-cli-macos" download>portfolio-cli-macos</a></td>
+  </tr>
+  <tr>
+    <td>macOS (Apple Silicon)</td>
+    <td><a href="portfolio-cli-macos-arm64" download>portfolio-cli-macos-arm64</a></td>
+  </tr>
+</table>
